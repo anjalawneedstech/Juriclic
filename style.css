@@ -355,3 +355,11 @@ font-family: "Outfit" !important;
 font-family: "Outfit" !important;
 font-weight: 500 !important;
 }
+
+a {
+  color: #00469b !important;
+}
+
+a:hover {
+  color: #003d87 !important;
+}
