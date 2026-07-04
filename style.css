@@ -6,6 +6,26 @@ body{ background-color: #ffffff !important; }
 #hslNav{ background-color: #ffffff !important; }
 .da-attachment-email-all{ display: none !important; }
 .da-attachment-download-all{ display: none !important; }
+
+/* === Branded logo header ===
+   Displays Juriclic_Logo.png as a small centered banner at the top of every page.
+   PATH: this assumes Juriclic_Logo.png sits in the SAME static folder as this CSS file
+   (relative URLs in a Docassemble static CSS resolve relative to the CSS file's location).
+   If the logo lives elsewhere, swap in an absolute path, e.g.
+     background-image: url("/path/to/Juriclic_Logo.png");
+   To left-align instead of center, change background-position to "left center".
+*/
+#daform::before {
+  content: "";
+  display: block;
+  height: 48px;                 /* header height — bump up for a bigger logo */
+  margin: 4px auto 24px auto;
+  background-image: url("Juriclic_Logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
 .daundertext a{
 }
 .daundertext a:hover{
