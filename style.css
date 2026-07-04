@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Outfit");
 #hslNav{ display: none !important; }
 .linksContainer{ display: none !important; }
@@ -44,7 +44,7 @@ color: #38cbcf !important;
 font-size: 18px !important;
 border-radius: 10px !important;
 border-width: 2px !important;
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 color: #00469b !important;
 background-color: #bff1f8 !important;
 border-color: #ffffff !important;
@@ -53,7 +53,7 @@ border-color: #ffffff !important;
 font-size: 18px !important;
 border-radius: 10px !important;
 border-width: 2px !important;
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 background-color: #00469b !important;
 color: #ffffff !important;
 border-color: #ffffff !important;
@@ -72,7 +72,7 @@ border-bottom-width: 4px !important;
 margin-bottom: 10px !important;
 }
 .da-page-header h1 {
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 font-size: 30px !important;
 }
 .da-form-label {
@@ -193,7 +193,7 @@ margin-left: 0px !important;
 }
 .btn.btn-da.btn-primary, .btn.btn-primary:disabled, .btn.btn-primary.disabled, .btn-secondary.disabled, .btn-secondary:disabled {
 background-color: #00469b !important;
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 border-radius: 10px !important;
 font-size: 17px !important;
 }
@@ -203,7 +203,7 @@ border-color:transparent !important;
 .btn.btn-da.btn-secondary, p .btn-secondary.btn-sm {
 color: #ffffff !important;
 background-color: #bff1f8 !important;
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 font-size: 16px !important;
 border-radius: 10px !important;
 border-width : 0px !important;
@@ -215,7 +215,7 @@ border-color : #38cbcf !important;
 .btn-warning {
 border-color: transparent !important;
 border-radius: 10px !important;
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 font-size: 17px !important;
 background-color: #bff1f8 !important;
 color: #ffffff !important;
@@ -225,7 +225,7 @@ color: #38cbcf !important;
 background-color: #bff1f8 !important;
 }
 .row.da-field-container.da-field-container-note  h4{
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 }
 .bg-light{
 background-color: #bff1f8 !important;
@@ -280,7 +280,7 @@ color : #38cbcf !important;
 color : #38cbcf !important;
 }
 .da-attachment-title-wrapper h3{
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 }
 .da-attachment-download-wrapper p a {
 }
@@ -307,10 +307,11 @@ color : #fff !important;
 border-color : rgb(197 59 0 / 100%) !important;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
+font-weight: 600 !important;
 }
 .da-subquestion h2, .h2{
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 font-size: 30px !important;
 }
 .table.table-striped thead th{
@@ -332,7 +333,7 @@ font-family: "Outfit" !important;
 background-color : #00469b !important;
 border-color : #00469b !important;
 color : #fff !important;
-font-family: "DM Serif Display" !important;
+font-family: "Quicksand" !important;
 border-radius : 10px !important;
 }
 .btn-info:hover{
@@ -382,4 +383,12 @@ a {
 
 a:hover {
   color: #003d87 !important;
+}
+
+/* Quicksand: medium weight on buttons and nav pills so they match the heading weight */
+.btn, .nav-link,
+.btn.btn-da.btn-primary,
+.btn.btn-da.btn-secondary, p .btn-secondary.btn-sm,
+.btn-warning, .btn-info {
+font-weight: 500 !important;
 }
